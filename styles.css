@@ -68,7 +68,7 @@ header:hover .logo a {
   justify-content: center;
   text-align: center;
   padding: 50px 20px;
-  background: url("./imgs/landing-bg.jpg") no-repeat center center/cover;
+  background: url("./landing-bg.jpg") no-repeat center center/cover;
   color: #fff;
 }
 .landing .text {

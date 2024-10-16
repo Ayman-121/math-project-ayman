@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Project By Ayman</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Math Project by Ayman Mohammad Khair focusing on arithmetic sequences.">
+    <meta name="keywords" content="Math, Arithmetic Sequence, Coding, Ayman Mohammad Khair, Project">
+    <meta name="author" content="Ayman Mohammad Khair">
+    <meta property="og:title" content="Math Project By Ayman">
+    <meta property="og:description" content="Explore the fascinating world of arithmetic sequences with Ayman Mohammad Khair.">
+    <meta property="og:image" content="https://yourwebsite.com/imgs/logo.png">
+    <meta property="og:url" content="https://ayman-121.github.io/My_Info/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/imgs/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/logo.png" alt="Ayman's Logo">
+            <a href="https://ayman-121.github.io/My_Info/" target="_blank">Ayman</a>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#project">Project</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <div class="landing" id="home">
+        <div class="text">
+            <h1>I Am <br> Ayman Mohammad Khair</h1>
+            <p>Arithmetic Sequence</p>
+        </div>
+        <img src="./imgs/maths.webp" alt="Math Image">
+    </div>
+    <div class="project" id="project">
+        <div class="input-container">
+            <input type="text" id="sequence-input" placeholder="Enter an arithmetic sequence..." />
+            <input type="number" id="nth-term-input" placeholder="Enter n-th term (optional)..." />
+            <label>
+                <input type="checkbox" id="sum-checkbox" /> Sum terms up to n-th term
+            </label>
+            <button id="calculate-btn">Calculate</button>
+        </div>
+        <div class="output-container">
+            <p id="sequence-info">Sequence info will appear here.</p>
+            <p id="nth-term-info"></p>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h2>About ME, Ayman</h2>
+        <p>Welcome to my personal website! I’m Ayman Mohammad Khair, passionate about coding and mathematics. This page provides insight into my project, arithmetic sequence.</p>
+        <div class="social" id="so">
+            <div class="container">
+                <a href="https://github.com/Ayman-121" target="_blank" class="link github">
+                    <i class="fa-brands fa-github"></i>
+                    <p>Github</p>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100072208415955" target="_blank" class="link facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Facebook</p>
+                </a>
+                <a href="https://twitter.com/AymanYaman77777" target="_blank" class="link twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="link instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <span id="current-year"></span> <a href="https://ayman-121.github.io/My_Info/" target="_blank">My Home Website</a><span><br> Something Is Coming ⏳⌛</span></p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html

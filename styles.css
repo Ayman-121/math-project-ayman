@@ -248,7 +248,40 @@ header:hover .logo a {
 .about .social .container a.facebook {
   color: #1877f2;
   background-color: #e9f1ff;
+  cursor: not-allowed;
 }
+.facebook .tooltip {
+            visibility: hidden;
+            width: 150px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; /* positioning above the link */
+            left: 50%;
+            margin-left: -75px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .facebook .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%; /* point of arrow at the bottom of tooltip */
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+        .facebook:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
 .about .social .container a.twitter {
   color: #ffffff;
   background-color: #FFFC00;

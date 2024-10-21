@@ -267,7 +267,7 @@ header:hover .logo a {
             transition: opacity 0.3s;
         }
 
-        .facebook .tooltip::after {
+.facebook .tooltip::after {
             content: '';
             position: absolute;
             top: 100%;
@@ -278,7 +278,7 @@ header:hover .logo a {
             border-color: #555 transparent transparent transparent;
         }
 
-        .facebook:hover .tooltip {
+.facebook:hover .tooltip {
             visibility: visible;
             opacity: 1;
         }

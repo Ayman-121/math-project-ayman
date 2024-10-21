@@ -250,20 +250,19 @@ header:hover .logo a {
   background-color: #e9f1ff;
   cursor: not-allowed;
 }
-
-        .facebook .tooltip {
+.facebook .tooltip {
             visibility: hidden;
-            width: 180px;
-            background-color: #333;
+            width: 150px;
+            background-color: #555;
             color: #fff;
             text-align: center;
             border-radius: 6px;
-            padding: 8px;
+            padding: 5px;
             position: absolute;
             z-index: 1;
-            bottom: 140%;
+            bottom: 125%;
             left: 50%;
-            margin-left: -90px;
+            margin-left: -75px;
             opacity: 0;
             transition: opacity 0.3s;
         }
@@ -276,24 +275,13 @@ header:hover .logo a {
             margin-left: -5px;
             border-width: 5px;
             border-style: solid;
-            border-color: #333 transparent transparent transparent;
-        }
-
-        .facebook:hover {
-            animation: shake 0.5s;
+            border-color: #555 transparent transparent transparent;
         }
 
         .facebook:hover .tooltip {
             visibility: visible;
             opacity: 1;
-        }
-@keyframes shake {
-            0% { transform: translateX(0); }
-            25% { transform: translateX(-5px); }
-            50% { transform: translateX(5px); }
-            75% { transform: translateX(-5px); }
-            100% { transform: translateX(0); }
-        }
+        
 .about .social .container a.twitter {
   color: #ffffff;
   background-color: #FFFC00;

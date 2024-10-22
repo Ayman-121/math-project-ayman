@@ -291,6 +291,14 @@ header:hover .logo a {
   background-color: #ffe0f0;
 }
 
+img.kkis{
+  width: auto;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 footer {
   text-align: center;
   padding: 10px 0;
